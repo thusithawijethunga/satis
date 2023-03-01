@@ -2,6 +2,9 @@
 
 Simple static Composer repository generator.
 
+## UI
+![Main WEB](./main-ui.png)
+
 ## Run from source
 
 Satis requires a recent PHP version, it does not run with unsupported PHP versions. Check the `composer.json` file for details.
