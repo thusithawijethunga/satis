@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "thusitha/php-plugin": [
+            {
+                "name": "thusitha/php-plugin",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thusithawijethunga/php-plugin.git",
+                    "reference": "ae02effb490390390df67e11ca96da8c576f2cbc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thusithawijethunga/php-plugin/zipball/ae02effb490390390df67e11ca96da8c576f2cbc",
+                    "reference": "ae02effb490390390df67e11ca96da8c576f2cbc",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.1"
+                },
+                "time": "2023-03-01T12:57:07+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/helper.php"
+                    ],
+                    "psr-4": {
+                        "Thusitha\\PhpPlugin\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Thusitha Avinda",
+                        "email": "thusithawijethunga@gmail.com",
+                        "homepage": "https://github.com/thusithawijethunga",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "php plugin",
+                "homepage": "https://github.com/thusithawijethunga",
+                "keywords": [
+                    "php",
+                    "plugin"
+                ],
+                "support": {
+                    "source": "https://github.com/thusithawijethunga/php-plugin/tree/main",
+                    "issues": "https://github.com/thusithawijethunga/php-plugin/issues"
+                }
+            }
+        ]
+    }
+}

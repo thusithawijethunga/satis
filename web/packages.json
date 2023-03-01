@@ -1,0 +1,13 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$5be6beeef2f0db105eeda7ee41c0efd265da77ab.json": {
+            "sha1": "5be6beeef2f0db105eeda7ee41c0efd265da77ab"
+        }
+    },
+    "metadata-url": "/satis/web/p2/%package%.json",
+    "available-packages": [
+        "thusitha/composer-plugin",
+        "thusitha/php-plugin"
+    ]
+}

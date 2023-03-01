@@ -1,0 +1,21 @@
+{
+    "name": "my/repository",
+    "homepage": "https://book.mydomain.com/satis/web",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:thusithawijethunga/composer-plugin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:thusithawijethunga/php-plugin.git"
+        }
+    ],
+    "archive": {
+        "directory": "dist",
+        "format": "tar",
+        "prefix-url": "https://github.com",
+        "skip-dev": true
+    },
+    "require-all": true
+}

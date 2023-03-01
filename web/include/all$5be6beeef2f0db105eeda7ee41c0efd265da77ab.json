@@ -1,0 +1,191 @@
+{
+    "packages": {
+        "thusitha/composer-plugin": {
+            "0.0.1": {
+                "name": "thusitha/composer-plugin",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thusithawijethunga/composer-plugin.git",
+                    "reference": "0ba75bf8f9360f79bdff685884525f07a05dbcac"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://github.com/dist/thusitha/composer-plugin/thusitha-composer-plugin-0ba75bf8f9360f79bdff685884525f07a05dbcac-zip-53f7e0.tar",
+                    "reference": "0ba75bf8f9360f79bdff685884525f07a05dbcac",
+                    "shasum": "1dcf4eea4cb8b0107d7a4d6a89c0a729629d150e"
+                },
+                "require": {
+                    "doctrine/dbal": "3.6.0",
+                    "monolog/monolog": "^2.0",
+                    "twig/twig": "^3.0"
+                },
+                "time": "2023-03-01T12:13:57+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "support": {
+                    "source": "https://github.com/thusithawijethunga/composer-plugin/tree/0.0.1",
+                    "issues": "https://github.com/thusithawijethunga/composer-plugin/issues"
+                }
+            },
+            "0.0.2": {
+                "name": "thusitha/composer-plugin",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thusithawijethunga/composer-plugin.git",
+                    "reference": "f4c49d3577293b9f020824ee96c86989098ad759"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://github.com/dist/thusitha/composer-plugin/thusitha-composer-plugin-f4c49d3577293b9f020824ee96c86989098ad759-zip-cd75b8.tar",
+                    "reference": "f4c49d3577293b9f020824ee96c86989098ad759",
+                    "shasum": "9f045089f83eea60d67c0c67639b7dd620439508"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.1",
+                    "monolog/monolog": "^2.0"
+                },
+                "time": "2023-03-01T12:20:24+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "src/helper.php"
+                    ],
+                    "psr-4": {
+                        "Thusitha\\ComposerPlugin\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Thusitha Avinda",
+                        "email": "thusithawijethunga@gmail.com",
+                        "homepage": "https://my-book.mydomain.com",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "composer plugin",
+                "homepage": "https://my-book.mydomain.com",
+                "keywords": [
+                    "composer",
+                    "plugin"
+                ],
+                "support": {
+                    "source": "https://github.com/thusithawijethunga/composer-plugin/tree/0.0.2",
+                    "issues": "https://github.com/thusithawijethunga/composer-plugin/issues"
+                }
+            },
+            "dev-main": {
+                "name": "thusitha/composer-plugin",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thusithawijethunga/composer-plugin.git",
+                    "reference": "43362cdf7719d906e5bf7ddfca21473ed1aefdf9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thusithawijethunga/composer-plugin/zipball/43362cdf7719d906e5bf7ddfca21473ed1aefdf9",
+                    "reference": "43362cdf7719d906e5bf7ddfca21473ed1aefdf9",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.1",
+                    "monolog/monolog": "^2.0"
+                },
+                "time": "2023-03-01T12:56:35+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/helper.php"
+                    ],
+                    "psr-4": {
+                        "Thusitha\\ComposerPlugin\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Thusitha Avinda",
+                        "email": "thusithawijethunga@gmail.com",
+                        "homepage": "https://github.com/thusithawijethunga",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "composer plugin",
+                "homepage": "https://github.com/thusithawijethunga",
+                "keywords": [
+                    "composer",
+                    "plugin"
+                ],
+                "support": {
+                    "source": "https://github.com/thusithawijethunga/composer-plugin/tree/main",
+                    "issues": "https://github.com/thusithawijethunga/composer-plugin/issues"
+                }
+            }
+        },
+        "thusitha/php-plugin": {
+            "dev-main": {
+                "name": "thusitha/php-plugin",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thusithawijethunga/php-plugin.git",
+                    "reference": "ae02effb490390390df67e11ca96da8c576f2cbc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thusithawijethunga/php-plugin/zipball/ae02effb490390390df67e11ca96da8c576f2cbc",
+                    "reference": "ae02effb490390390df67e11ca96da8c576f2cbc",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.1"
+                },
+                "time": "2023-03-01T12:57:07+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/helper.php"
+                    ],
+                    "psr-4": {
+                        "Thusitha\\PhpPlugin\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Thusitha Avinda",
+                        "email": "thusithawijethunga@gmail.com",
+                        "homepage": "https://github.com/thusithawijethunga",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "php plugin",
+                "homepage": "https://github.com/thusithawijethunga",
+                "keywords": [
+                    "php",
+                    "plugin"
+                ],
+                "support": {
+                    "source": "https://github.com/thusithawijethunga/php-plugin/tree/main",
+                    "issues": "https://github.com/thusithawijethunga/php-plugin/issues"
+                }
+            }
+        }
+    }
+}

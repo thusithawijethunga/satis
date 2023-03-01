@@ -1,0 +1,58 @@
+{
+    "packages": {
+        "thusitha/composer-plugin": [
+            {
+                "name": "thusitha/composer-plugin",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thusithawijethunga/composer-plugin.git",
+                    "reference": "43362cdf7719d906e5bf7ddfca21473ed1aefdf9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thusithawijethunga/composer-plugin/zipball/43362cdf7719d906e5bf7ddfca21473ed1aefdf9",
+                    "reference": "43362cdf7719d906e5bf7ddfca21473ed1aefdf9",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.1",
+                    "monolog/monolog": "^2.0"
+                },
+                "time": "2023-03-01T12:56:35+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/helper.php"
+                    ],
+                    "psr-4": {
+                        "Thusitha\\ComposerPlugin\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Thusitha Avinda",
+                        "email": "thusithawijethunga@gmail.com",
+                        "homepage": "https://github.com/thusithawijethunga",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "composer plugin",
+                "homepage": "https://github.com/thusithawijethunga",
+                "keywords": [
+                    "composer",
+                    "plugin"
+                ],
+                "support": {
+                    "source": "https://github.com/thusithawijethunga/composer-plugin/tree/main",
+                    "issues": "https://github.com/thusithawijethunga/composer-plugin/issues"
+                }
+            }
+        ]
+    }
+}
