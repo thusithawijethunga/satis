@@ -23,7 +23,6 @@
                 },
                 "time": "2023-03-01T12:13:57+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "support": {
                     "source": "https://github.com/thusithawijethunga/composer-plugin/tree/0.0.1",
                     "issues": "https://github.com/thusithawijethunga/composer-plugin/issues"
@@ -50,7 +49,6 @@
                 },
                 "time": "2023-03-01T12:20:24+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "files": [
                         "src/helper.php"

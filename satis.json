@@ -1,6 +1,6 @@
 {
     "name": "my/repository",
-    "homepage": "https://book.mydomain.com/satis/web",
+    "homepage": "https://satis.mydomain.com",
     "repositories": [
         {
             "type": "vcs",
@@ -19,3 +19,7 @@
     },
     "require-all": true
 }
+
+
+
+
