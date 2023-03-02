@@ -140,18 +140,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/thusithawijethunga/php-plugin.git",
-                    "reference": "ae02effb490390390df67e11ca96da8c576f2cbc"
+                    "reference": "5bea8b2b9286a5159838ca6d5b2591f1c9835d69"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/thusithawijethunga/php-plugin/zipball/ae02effb490390390df67e11ca96da8c576f2cbc",
-                    "reference": "ae02effb490390390df67e11ca96da8c576f2cbc",
+                    "url": "https://api.github.com/repos/thusithawijethunga/php-plugin/zipball/5bea8b2b9286a5159838ca6d5b2591f1c9835d69",
+                    "reference": "5bea8b2b9286a5159838ca6d5b2591f1c9835d69",
                     "shasum": ""
                 },
                 "require": {
                     "guzzlehttp/guzzle": "^7.1"
                 },
-                "time": "2023-03-01T12:57:07+00:00",
+                "time": "2023-03-01T15:16:23+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

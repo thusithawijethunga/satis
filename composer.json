@@ -80,6 +80,12 @@
         }
     },
     "scripts": {
+        "post-install-cmd": [
+            "php bin/satis build satis.json web/"
+        ],
+        "post-update-cmd": [
+            "php bin/satis build satis.json web/"
+        ],
         "test": "vendor/bin/phpunit",
         "phpstan": "tools/phpstan/vendor/bin/phpstan",
         "php-cs-fixer": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --dry-run --diff",
